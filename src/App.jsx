@@ -27,7 +27,7 @@ useEffect(() => {
   return (
     <Box sx={{height:"100vh", width:"100vw", backgroundColor:"#0F1214", color:"#F6F7F8", overflow:"auto"}}>
       <Box sx={{height:"20%", width:"100%", display:"flex", justifyContent:"center", alignItems:"center"}}>
-        <Typography>Cloud Computing - Curtis Thomas - Bundle J </Typography>
+        <Typography>Cloud Computing - Curtis Thomas - Bundle J + O</Typography>
       </Box>
 
       <Box sx={{height:"80%", width:"100%"}}>
