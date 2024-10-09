@@ -1,7 +1,13 @@
-on: push 
+on: push
 jobs:
   first-job:
-  runs-on: windows-latest
-  steps:
-  -run: node --version
-  -run: npm --version
+    runs-on: windows-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Display Node.js version
+        run: node --version
+
+      - name: Display npm version
+        run: npm --version
